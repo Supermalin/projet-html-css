@@ -28,6 +28,7 @@
 }
 
 .menu{
+    color: white;
     font-family: var(--poppins);
     font-weight: 600;
 }
@@ -47,6 +48,7 @@
 }
 
 li a{
+    padding: 0px;
     text-decoration: none;
     color: white;
     font-size: 1.5vw;
@@ -59,12 +61,6 @@ li a{
     font-family: var(--sansita);
 }
 
-.prix, .info{
-    font-weight: 600;
-    font-family: var(--inter);
-    color: white;
-}
-
 @media (max-width: 2410px){
 
     .menu>li>a:hover {
@@ -72,6 +68,9 @@ li a{
     }
 
     .prix, .info{
+        font-weight: 600;
+        font-family: var(--inter);
+        color: white;
         font-size: 2vw;
     }
 
@@ -215,33 +214,14 @@ li a{
         text-align: center;
     }
 
-    .i{
-        color: white;
-        font-family: var(--inter);
-        font-weight: 500;
-        font-size: 2vw;
-    }
-
     .ajouter{
-        color: white;
-        font-family: var(--inter);
         font-weight: 600;
         font-size: 2.85vw;
         text-align: center;
     }
 
-    .sub-title{
-        color: var(--active);
-        font-size: 2vw;
-        font-weight: 600;
-        font-family: var(--inter);
-    }
-
     .menu{
-        color: white;
-        font-family: var(--poppins);
         align-items: center;
-        font-weight: 600;
         font-size: 1.5vw;
     }
 
@@ -249,59 +229,17 @@ li a{
         color: var(--active);
     }
 
-    .title{
-        color: white;
-        font-size: 5vw;
-        font-weight: 400;
-        font-family: var(--sansita);
-    }
-
     .commander{
-        color: white;
-        font-family: var(--inter);
-        font-weight: 600;
         font-size: 2.85vw;
-        text-align: center;
     }
 
     li a{
-        text-decoration: none;
-        color: white;
-        padding: 0px;
         font-size: 3.5vw;
-    }
-
-    .top-produit{
-        text-align: center;
-        font-weight: 600;
-        font-size: 6vw;
-        font-family: var(--sansita);
-    }
-
-    .info{
-        font-weight: 500;
-        font-family: var(--inter);
-        font-size: 2.7vw;
-        color: white;
-    }
-
-    .ajouter{
-        font-family: var(--inter);
-        font-size: 2.85vw;
-    }
-
-    .i{
-        color: white;
-        font-family: var(--inter);
-        font-weight: 500;
-        font-size: 2vw;
     }
 
     .info, .prix{
         font-weight: 500;
-        font-family: var(--inter);
         font-size: 3vw;
-        color: white;
     }
 
     .info-bonus{
