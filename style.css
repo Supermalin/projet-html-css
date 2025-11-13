@@ -7,17 +7,6 @@
     overflow-x: hidden;
 }
 
-.cursor {
-    position: fixed;
-    z-index: 2;
-    width: 30px;
-    height: 30px;
-    background: goldenrod;
-    opacity: 0.8;
-    filter: blur(10px);
-    transform: translate(-50%, -50%);
-}
-
 section, div{
     overflow-y: hidden;
     overflow-x: hidden;
@@ -170,6 +159,18 @@ footer{
 }
 
 @media (max-width: 2410px){
+
+    .cursor {
+        position: fixed;
+        display: flex;
+        z-index: 2;
+        width: 30px;
+        height: 30px;
+        background: goldenrod;
+        opacity: 0.8;
+        filter: blur(10px);
+        transform: translate(-50%, -50%);
+    }
 
     .burger{
         visibility: hidden;
@@ -599,6 +600,10 @@ footer{
 }
 
 @media (max-width: 1081px){
+
+    .cursor {
+        display: none;
+    }
 
     .menu{
         gap: 15%;
