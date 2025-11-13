@@ -15,11 +15,11 @@ document.addEventListener('DOMContentLoaded', () => { //attendre que l'element s
     position_souris(e.clientX, e.clientY);
   });
 
-  const animation = () => { //deplacement vers le curseur
+  const boucle_animation = () => { //deplacement vers le curseur
     div_x += (souris_x - div_x) * vitesse; div_y += (souris_y - div_y) * vitesse; //changement des variables js
     cursor.style.left = `${div_x}px`; cursor.style.top = `${div_y}px`; //changement de la position sur le css
-    requestAnimationFrame(animation);
+    requestAnimationFrame(boucle_animation);
   };
 
-  requestAnimationFrame(animation); //lance la boucle d'anniamtion
+  requestAnimationFrame(boucle_animation); //lance la boucle d'anniamtion
 });
