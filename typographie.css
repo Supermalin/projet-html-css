@@ -13,9 +13,14 @@
     font-size: 2vw;
 }
 
+.circle{
+    text-align: center;
+}
+
 .ajouter{
     background-color: var(--button);
     color: white;
+    text-align: center;
     font-family: var(--inter);
     font-weight: 500;
 }
@@ -45,6 +50,7 @@
     font-family: var(--inter);
     font-weight: 600;
     font-size: 1.85vw;
+    text-align: center;
 }
 
 li a{
@@ -211,10 +217,6 @@ li a{
 }
 
 @media (max-width: 1081px){
-    
-    .circle{
-        text-align: center;
-    }
 
     .ajouter{
         font-weight: 600;
