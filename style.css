@@ -139,14 +139,8 @@ li a{
     font-family: 'Sansita Swashed';
 }
 
-#prix{
+.prix, .info{
     font-weight: 600;
-    font-family: 'inter';
-    color: white;
-}
-
-#info{
-    font-weight: 500;
     font-family: 'inter';
     color: white;
 }
@@ -230,7 +224,7 @@ footer{
         width: 19%;
     }
 
-    #prix, #info{
+    .prix, .info{
         font-size: 2vw;
     }
 
@@ -865,7 +859,7 @@ footer{
         visibility: visible;
     }
 
-    #info, #prix{
+    .info, .prix{
         font-weight: 500;
         font-family: 'inter';
         font-size: 3vw;
