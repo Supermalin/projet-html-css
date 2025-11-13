@@ -722,7 +722,7 @@ footer{
         font-family: 'Sansita Swashed';
     }
 
-    #info{
+    .info{
         font-weight: 500;
         font-family: 'inter';
         font-size: 2.7vw;
