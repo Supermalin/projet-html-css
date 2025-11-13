@@ -440,7 +440,7 @@ footer{
 
     .section-cake>.div-plaisir>div:not(.top-produit, .name, .price, .cake, .div-plaisir){
         width: 30%;
-        margin-left: 2%;
+        margin-left: 2.5%;
         text-align: center;
     }
 
