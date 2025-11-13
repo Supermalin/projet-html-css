@@ -105,8 +105,13 @@ body {
     border: none;
 }
 
+.commander:hover{
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+
 .commander:active{
-    transform: scale(1.05);
+    transform: scale(0.8);
     transition: all 0.2s;
 }
 
@@ -181,6 +186,10 @@ footer{
         margin-left: 27vw;
         gap: 10%;
         width: 40vw;
+    }
+
+    .menu>li>a:hover {
+        color: var(--active);
     }
 
     .wallpaper{
@@ -259,12 +268,12 @@ footer{
     }
 
     .ajouter:hover{
-        transform: scale(1.1);
-        transition: all 0.2s;
+    transform: scale(1.1);
+    transition: all 0.2s;
     }
 
     .ajouter:active{
-        transform: scale(1.2);
+        transform: scale(0.9);
         transition: all 0.2s;
     }
 
@@ -339,6 +348,16 @@ footer{
         text-align: center;
         border-radius: 10px;
         border: none;
+    }
+
+    .en-savoir-plus:hover{
+        transform: scale(1.1);
+        transition: all 0.2s;
+    }
+
+    .en-savoir-plus:active{
+        transform: scale(0.8);
+        transition: all 0.2s;
     }
 
     .liste-gateau{
@@ -433,8 +452,13 @@ footer{
         border: none;
     }
 
-    .lire-plus:active{
+    .lire-plus:hover{
         transform: scale(1.1);
+        transition: all 0.2s;
+    }
+
+    .lire-plus:active{
+        transform: scale(0.8);
         transition: all 0.2s;
     }
 
@@ -704,7 +728,7 @@ footer{
     }
 
     .commander:active{
-        transform: scale(1.05);
+        transform: scale(0.8);
         transition: all 0.2s;
     }
 
@@ -846,9 +870,13 @@ footer{
         margin-top: 75%; margin-left: 44%;
         font-family: 'inter';
         font-size: 2.85vw;
-        gap: 10px;
         border-radius: 10px;
         border: none;
+    }
+
+    .ajouter:active{
+        transform: scale(0.8);
+        transition: all 0.2s;
     }
 
     .circle{
@@ -966,7 +994,7 @@ footer{
     }
 
     .en-savoir-plus:active{
-        transform: scale(1.1);
+        transform: scale(0.8);
         transition: all 0.2s;
     }
 
@@ -1070,7 +1098,7 @@ footer{
     }
 
     .lire-plus:active{
-        transform: scale(1.1);
+        transform: scale(0.8);
         transition: all 0.2s;
     }
 
