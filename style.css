@@ -220,12 +220,14 @@ footer{
     }
     .food{
         position: absolute;
+        width: 14%;
         margin-left: 9%;
         margin-top: 1%;
     }
 
     #baguette{
-        margin-left: 6%;
+        margin-left: 7%;
+        width: 19%;
     }
 
     #prix, #info{
