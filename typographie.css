@@ -1,3 +1,11 @@
+:root{
+    --active:#E9BD8C;
+    --button: #933C24;
+    --inter: 'inter';
+    --poppins: 'Poppins';
+    --sansita: 'Sansita Swashed';
+}
+
 .i{
     color: white;
     font-family: var(--inter);
