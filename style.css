@@ -167,6 +167,7 @@ footer{
         width: 30px;
         height: 30px;
         background: goldenrod;
+        pointer-events: none;
         opacity: 0.8;
         filter: blur(10px);
         transform: translate(-50%, -50%);
