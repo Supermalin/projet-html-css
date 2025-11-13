@@ -7,9 +7,7 @@
 }
 
 body::-webkit-scrollbar {
- 
     display: none;
- 
 }
 
 *{
@@ -121,7 +119,7 @@ section{
 
 @media (max-width: 2410px){
 
-    .cursor {
+    .curseur {
         position: fixed;
         display: flex;
         z-index: 2;
@@ -486,7 +484,7 @@ section{
 
 @media (max-width: 1081px){
 
-    .cursor {
+    .curseur {
         display: none;
     }
 
