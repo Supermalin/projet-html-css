@@ -120,7 +120,7 @@ section{
     width: 100%; height: auto;
 }
 
-@media (max-width: 2410px){
+@media (max-width: 2561px){
 
     .curseur {
         position: fixed;
@@ -227,9 +227,9 @@ section{
 
     .info-bonus{
         position: absolute;
-        margin-top: 20%;
-        margin-left: 18%;
-        width: 8vw;
+        margin-top: 19.5%;
+        margin-left: 17%;
+        width: 10vw;
         visibility: hidden;
     }
 
@@ -269,6 +269,10 @@ section{
         margin-top: 5%;
         margin-left: 29%;
         width: 40%;
+    }
+
+    .img-reseau:hover{
+        transform: scale(1.2);
     }
 
     .en-savoir-plus{
@@ -408,10 +412,11 @@ section{
     }
 
     .reseaux{
-        margin-top: -3.5%;
+        margin-top: -6.5%;
         margin-left: 60%;
         margin-bottom: 2%;
         width: 50%;
+        height: 70%;
         display: flex;
         justify-content: center;
         gap: 5%;
@@ -420,8 +425,8 @@ section{
     .circle-instagram{
         position: absolute;
         margin-left: 19.5%;
-        margin-top: 1%;
-        width: 1.5%;
+        margin-top: 1.2%;
+        width: 1.2%;
     }
 
     .border{
@@ -500,12 +505,6 @@ section{
 
     .menu{
         gap: 15%;
-    }
-
-    .circle{
-        position: absolute;
-        border: solid 0.5vw white;
-        border-radius: 50%;
     }
 
     .burger{
@@ -668,8 +667,6 @@ section{
     }
 
     .circle{
-        position: absolute;
-        border: solid 0.5vw white;
         margin-top: 65%;
         width: 5vw; height: 5vw;
         margin-left: 51%;
@@ -858,11 +855,14 @@ section{
         justify-content: space-evenly;
     }
 
+    .img-reseau:active{
+        transform: scale(1.2);
+    }
+
     .circle-instagram{
-        position: absolute;
         margin-left: 70.8%;
-        margin-top: 2%;
-        width: 3%;
+        margin-top: 2.4%;
+        width: 2.5%;
     }
 
     .border{
