@@ -417,6 +417,13 @@ section{
         gap: 5%;
     }
 
+    .circle-instagram{
+        position: absolute;
+        margin-left: 19.5%;
+        margin-top: 1%;
+        width: 1.5%;
+    }
+
     .border{
         position: absolute;
         margin-top: -50%;
@@ -849,6 +856,13 @@ section{
         margin-left: 0%;
         width: 100%;
         justify-content: space-evenly;
+    }
+
+    .circle-instagram{
+        position: absolute;
+        margin-left: 70.8%;
+        margin-top: 2%;
+        width: 3%;
     }
 
     .border{
