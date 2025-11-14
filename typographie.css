@@ -130,6 +130,11 @@ li a{
         color: #5D5D5D;
     }
 
+    .choix:hover{
+        transition: all 0.5s;
+        border-bottom: solid 0.7vw var(--button);
+    }
+
     .about-it{
         color: white;
         text-align: center;
@@ -286,6 +291,11 @@ li a{
         font-family: var(--poppins);
         font-weight: 600;
         color: #5D5D5D;
+    }
+
+    .choix:active{
+        transition: all 0.5s;
+        border-bottom: solid 0.7vw var(--active);
     }
 
     .about-it{
