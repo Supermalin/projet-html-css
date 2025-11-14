@@ -32,7 +32,7 @@ body {
 
 .circle{
     position: absolute;
-    border: solid 0.5vw white;
+    border: solid 0.2vw white;
 }
 
 .burger{
@@ -43,7 +43,7 @@ body {
 }
 
 .ajouter{
-    border-radius: 2px;
+    border-radius: 10px;
     border: none;
     padding: 8px;
     overflow-y: hidden;
@@ -205,13 +205,13 @@ section{
 
     .prix{
         position: absolute;
-        margin-top: 16%; margin-left: 4.5%;
+        margin-top: 17%; margin-left: 4.5%;
     }
 
     .info{
         position: absolute;
         width: 12%;
-        margin-top: 21.5%; margin-left: 4.5%;
+        margin-top: 22.5%; margin-left: 4.5%;
     }
 
     .ajouter{
@@ -231,14 +231,14 @@ section{
 
     .info-bonus{
         position: absolute;
-        margin-top: 19.5%;
+        margin-top: 20%;
         margin-left: 17%;
         width: 10vw;
         visibility: hidden;
     }
 
     .circle{
-        margin-top: 15%; margin-left: 20%;
+        margin-top: 16.5%; margin-left: 20%;
         width: 3vw; height: 3vw;
         border-radius: 50%;
     }
