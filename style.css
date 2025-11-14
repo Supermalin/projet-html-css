@@ -6,8 +6,8 @@
     --sansita: 'Sansita Swashed';
 }
 
-/* Position, Taille et marge 
- Avec les effets et les background */
+/* Position, taille, marge,
+ bordure, effets et background */
 
 body::-webkit-scrollbar {
     display: none;

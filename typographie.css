@@ -6,6 +6,9 @@
     --sansita: 'Sansita Swashed';
 }
 
+/* Typographie, couleur de texte
+ police de texte taille, épaisseur */
+
 .i{
     color: white;
     font-family: var(--inter);
