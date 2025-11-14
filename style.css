@@ -31,6 +31,8 @@ body {
   margin: 0;
 }
 
+/* LES STYLES COMMUNS AU MOBILE ET DESKTOP */
+
 .img-reseau{
     width: 8%;
 }
@@ -128,9 +130,9 @@ section{
 
 /* Version Desktop Entre 2560px et 1081px car maintenant les smartphones et les tabletes
  ont de grandes résolution exemple : Oppo Reno13 F 5G -> 2400 x 1080 */
-
 @media (max-width: 2561px){
 
+    /* La div qui suis le pointeur */
     .curseur {
         position: fixed;
         display: flex;
