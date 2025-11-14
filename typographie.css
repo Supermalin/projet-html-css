@@ -131,15 +131,20 @@ li a{
         font-family: var(--poppins);
         font-weight: 600;
         color: #5D5D5D;
+        transition: all 0.5s;
+        border-bottom: solid 0vw var(--button);
     }
 
     .choix:hover{
+        border-bottom: solid 0.7vw var(--button);
+    }
+
+    #use{
         transition: all 0.5s;
         border-bottom: solid 0.7vw var(--button);
     }
 
     .liste-gateau:hover #use{
-        transition: all 0.5s;
         border-bottom: solid 0vw var(--button);
     }
 
