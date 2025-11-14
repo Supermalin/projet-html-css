@@ -17,6 +17,11 @@ body::-webkit-scrollbar {
     overflow-x: hidden;
 }
 
+*::selection{
+    color: goldenrod;
+    background-color: #333;
+}
+
 section, div{
     overflow-y: hidden;
     overflow-x: hidden;
