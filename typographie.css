@@ -138,6 +138,11 @@ li a{
         border-bottom: solid 0.7vw var(--button);
     }
 
+    .liste-gateau:hover #use{
+        transition: all 0.5s;
+        border-bottom: solid 0vw var(--button);
+    }
+
     .about-it{
         color: white;
         text-align: center;
