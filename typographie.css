@@ -70,6 +70,9 @@ li a{
     font-family: var(--sansita);
 }
 
+/* Version Desktop Entre 2560px et 1081px car maintenant les smartphones et les tabletes
+ ont de grandes résolution exemple : Oppo Reno13 F 5G -> 2400 x 1080 */
+
 @media (max-width: 2410px){
 
     .menu>li>a:hover {
