@@ -46,6 +46,7 @@ body {
     border-radius: 2px;
     border: none;
     padding: 8px;
+    overflow-y: hidden;
 }
 
 .logo{
